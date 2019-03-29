@@ -8,3 +8,8 @@ var playlist = {
 var playlist = {
   artistName: "Beyonce", songTitle: "Phil Ochs"
 };
+
+function updatePlaylist (playlist, artistName, songTitle){
+playlist[artistName] = songTitle;
+return playlist;  
+}
