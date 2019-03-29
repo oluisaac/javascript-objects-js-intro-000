@@ -17,8 +17,5 @@ return playlist;
 function removeFromPlaylist(Playlist, artistName) {
   delete Playlist[artistName];
   return updatePlaylist;
-};
-
-removeFromPlaylist(playlist, "artistName");
 
 };
